@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: trans_friendly_medical_providers_backend_production
-  username: trans_friendly_medical_providers_backend
-  password: <%= ENV['TRANS_FRIENDLY_MEDICAL_PROVIDERS_BACKEND_DATABASE_PASSWORD'] %>
+  username: postgres
+  password: postgres
