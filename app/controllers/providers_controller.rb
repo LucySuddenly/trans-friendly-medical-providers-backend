@@ -11,7 +11,12 @@ class ProvidersController < ApplicationController
     end
 
     def create
-        provider = Provider.create(provider_params)
+        provider = Provider.new(provider_params)
+        if provider.save
+            render json: provider 
+        else
+            render json: provider.errors
+        end
     end
 
     private
