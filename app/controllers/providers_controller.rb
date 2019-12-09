@@ -9,4 +9,14 @@ class ProvidersController < ApplicationController
         provider = Provider.find(params[:id])
         render json: provider
     end
+
+    def create
+        provider = Prover.create(provider_params)
+    end
+
+    private
+
+    def provider_params
+        params.require(:provider).permit(:name, :description, :address1, :address2, :city, :state, :zip, :website, :phone)
+    end
 end
