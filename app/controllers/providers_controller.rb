@@ -15,7 +15,7 @@ class ProvidersController < ApplicationController
         if provider.save
             render json: provider 
         else
-            render json: provider.errors
+            render json: provider.errors.full_messages
         end
     end
 
