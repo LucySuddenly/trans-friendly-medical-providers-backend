@@ -11,7 +11,7 @@ class ProvidersController < ApplicationController
     end
 
     def create
-        provider = Prover.create(provider_params)
+        provider = Provider.create(provider_params)
     end
 
     private
