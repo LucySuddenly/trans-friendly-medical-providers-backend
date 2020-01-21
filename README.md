@@ -1,24 +1,22 @@
-# README
+# Trans-Friendly Medical Providers Frontend
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a proof-of-concept project for a user-driven collection of trans-friendly medical providers.
 
-Things you may want to cover:
+## Motivation
 
-* Ruby version
+Trans people may be denied medical services for a number of reasons. This app aims to crowdsource positive reports from trans people to ensure easier access to care for others.
 
-* System dependencies
+## Installation
 
-* Configuration
+clone the repo and run bundle install
 
-* Database creation
+rails s to begin the server
 
-* Database initialization
+## Contributing
 
-* How to run the test suite
+Contributions are welcome, submit a pull request!
 
-* Services (job queues, cache servers, search engines, etc.)
+## License
 
-* Deployment instructions
+This project is licensed under the [GNU General Public license](https://www.gnu.org/licenses/gpl-3.0.html)
 
-* ...
